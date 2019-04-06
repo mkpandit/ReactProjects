@@ -18,7 +18,11 @@ class Table extends Component {
 const TableHeader = () => {
     return (
         <thead>
-            <tr><th>Name</th><th>Job</th></tr>
+            <tr>
+                <td>Title</td>
+                <td>Body</td>
+                <td></td>
+            </tr>
         </thead>
     )
 }
@@ -27,10 +31,10 @@ const TableBody = (props) => {
     const rows = props.characterData.map((row, index) => {
         return (
             <tr key={index}>
-                <td>{row.name}</td>
-                <td>{row.job}</td>
+                <td>{row.title}</td>
+                <td>{row.body}</td>
                 <td>
-                    <button onClick={() => props.removeCharacter(index)}>Delete</button>
+                    <button onClick={() => props.removeCharacter(index)}>Remove</button>
                 </td>
             </tr>
         )
