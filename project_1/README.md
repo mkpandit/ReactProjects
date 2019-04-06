@@ -1,4 +1,4 @@
-### Learning React
+### React Project #1
 CRUD application using React
 
 ### `npm start`
