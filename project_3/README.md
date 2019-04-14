@@ -1,5 +1,5 @@
-### React Project #2
-React Multi-page website
+### React Project #3
+Consume REST API with React
 
 ### `npm start`
 
